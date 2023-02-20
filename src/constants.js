@@ -1,10 +1,10 @@
 require('dotenv').config();
 
-const DB_NAME = 'time_tracker';
-const DB_USERNAME = 'postgres';
-const DB_PASSWORD = 'postgres';
-const JWT_SECRET = 'test123';
-const DB_HOST = 'localhost';
+const DB_NAME = process.env.DB_NAME;
+const DB_USERNAME = process.env.DB_USERNAME;
+const DB_PASSWORD = process.env.DB_PASSWORD;
+const JWT_SECRET = process.env.JWT_SECRET;
+const DB_HOST = process.env.DB_HOST;
 const PORT = 4090;
 
 module.exports = {
