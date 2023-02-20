@@ -1,12 +1,12 @@
 const { Sequelize } = require('sequelize');
-const { DB_USERNAME, DB_PASSWORD, DB_NAME } = require('../constants');
+const { DB_USERNAME, DB_PASSWORD, DB_NAME, DB_HOST } = require('../constants');
 
 /**
  * @description - Create the sequelize instance by  Passing parameters separately (other dialects)
  */
 
 const sequelize = new Sequelize(DB_NAME, DB_USERNAME, DB_PASSWORD, {
-  host: 'localhost',
+  host: DB_HOST,
   dialect: 'postgres'
 });
 
