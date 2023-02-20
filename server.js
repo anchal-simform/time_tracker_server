@@ -18,6 +18,10 @@ app.use(cors());
 
 app.use('/', allRoutes);
 
+app.use('/', (req, res) => {
+  res.status(200).send('Welcome to time tracker Application');
+});
+
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
   next(new Error('Route not found'));
