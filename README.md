@@ -54,4 +54,4 @@ https://drive.google.com/file/d/1pu7KD_utpLHTp9tXAr8_eSy1g6oYhthx/view
 
    You can view the swagger documentation on url "/api-docs" for example http://localhost:4090/api-docs (sample image https://prnt.sc/4A4O_gGrUc1X)
 
-   Video Demo : https://drive.google.com/file/d/1EBpD07PTvNh82s5APHhDmPP3GyDxdRqV/view?usp=sharing
+   Video Demo : https://drive.google.com/file/d/1hxRq5Vqb_2h0fWf5qzCiah8KdiEoY61o/view?usp=sharing
